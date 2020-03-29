@@ -19,6 +19,7 @@ export const StoreContext = React.createContext();
 ReactDOM.render(
 <StoreContext.Provider value={newInstance}>
     <Post/>
+    <h1>Hello</h1>
 </StoreContext.Provider>,
  document.getElementById('root'));
 
